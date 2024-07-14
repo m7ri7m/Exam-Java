@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+}
+.layer{
+    transition: 0.3;
+    width: 92%;
+    border-radius: 10px;
+bottom: 0%;
+opacity: 0;
+height: 0%;
+
+}
+img{
+    border-radius: 10px;
+}
+.parent{
+    overflow: hidden;
+    transition: opacity 2s 2s all ease; 
+    
+}
+.parent:hover{
+overflow: visible;
+
+}
+.parent:hover .layer{
+opacity: 0.6;
+cursor: pointer;
+height: 100%;
+}
+aside{
+    top: 30%;
+    left: 0;
+    z-index: 999;
+    align-items: center;
+    white-space:nowrap;
+}
+li{
+    list-style-type:  none;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+ul{
+    align-items: flex-start;
+}
+.sidebar-box{
+    display: none;
+    left: -50%;
+}
+
